@@ -16,11 +16,11 @@ func main() {
 	flag.BoolVar(&help, "help", false, "show this help message (shorthand: -h)")
 	flag.BoolVar(&help, "h", false, "show this help message (shorthand for --help)")
 
-	flag.StringVar(&dir1, "dir1", "", "the first directory to compare (shorthand: -d1)")
 	flag.StringVar(&dir1, "d1", "", "the first directory to compare (shorthand for -dir1)")
+	flag.StringVar(&dir1, "dir1", "", "the first directory to compare (shorthand: -d1)")
 
-	flag.StringVar(&dir2, "dir2", "", "the first directory to compare (shorthand: -d1)")
 	flag.StringVar(&dir2, "d2", "", "the first directory to compare (shorthand for -dir2)")
+	flag.StringVar(&dir2, "dir2", "", "the first directory to compare (shorthand: -d1)")
 
 	flag.Parse()
 

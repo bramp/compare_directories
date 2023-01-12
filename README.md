@@ -1,7 +1,8 @@
 # compare_directories
+
 Comparing 2 directories and tells all the differences
 
-It tells the differences between the identical named files also
+It also tells the differences between the same named files
 
 ```
 compare_directories -d1 directory1 -d2 directory2
@@ -20,3 +21,18 @@ Usage of compare_directories:
   -help
     	show this help message (shorthand: -h)
 ```
+
+To install, run:
+
+```
+go install github.com/basdemir/compare_directories
+```
+
+If go is not installed on a platform supprts homebrew
+
+```
+brew install go
+```
+
+
+
